@@ -1,0 +1,301 @@
+
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+  width: 1400px;
+  background-color: whitesmoke;
+}
+
+.ordnav ul{
+ display: flex;
+ list-style: none;
+}
+
+.pic{
+  width: 120px;
+  height: 117px;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 20px;
+  padding-top: 40px;
+  padding-left: 5px;
+  margin-top: 7px;
+  border: 2px solid black;
+}
+
+.ordnav{
+  background-color: red;
+  color: white;
+  height: 8vh;
+}
+
+.app{
+  margin-top: 40px;
+  background-color: white;
+  color: red;
+  border-radius: 30px;
+  width: 150px;
+  height: 60px;
+  padding-top: 20px;
+  padding-left: 26px;
+  text-transform: uppercase;
+  margin-left: 450px;
+}
+
+.kabab{
+margin-top: 50px;
+font-weight: bolder;
+font-size: 25px;
+margin-left: 400px;
+color: white;
+}
+
+.xx{
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-left: 25px;
+  color: red;
+  font-weight: bolder;
+  padding-top: 12px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.drive{
+  background-color: red;
+  width: 300px;
+  height: 70px;
+  border-radius: 18px;
+}
+
+.and{
+ background-color: red;
+ width: 300px;
+ height: 70px;
+ margin-left: 40px;
+ border-radius: 18px;
+ padding-top: 25px;
+ padding-left: 60px;
+ font-size: 20px;
+}
+
+.go{
+ width: 150px;
+ height: 150px;
+  background-color: white;
+  border-radius: 75px; 
+  position: absolute;
+  left: 700px;
+}
+
+.go img{
+  margin-top: 60px;
+  margin-left: 13px;
+}
+
+.drive img{
+  width: 45px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+ vertical-align: middle;
+}
+
+.sidebar{
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+}
+
+.rightimage{
+ width: 100%;
+ margin-top: 20px;
+}
+
+.gif ul{
+  display: flex;
+  justify-content: center; 
+ list-style: none;
+ padding-left: 650px;
+}
+
+.gif{
+  overflow-x: scroll;
+  height: 8vh;
+  padding-left: 100%;
+  background-color: red;
+  width: 100%;
+}
+
+.gif ul li{
+  padding-right: 50px;
+  padding-top: 50px;
+  font-weight: bolder;
+  color: white;
+  font-size: 30px;
+}
+
+input{
+  width: 95%;
+  list-style: outline;
+  height: 3vh;
+  margin-left: 40px;
+  background-color: lightcyan;
+}
+
+span{
+  font-weight: bolder;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+p{
+  margin-left: 80px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.dig{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dig img{
+ width: 300px;
+ height: 260px;
+ border-radius: 40px;
+}
+
+.sold{
+  width: 300px;
+  height: 260px;
+}
+
+ .copy{
+    width: 420px;
+    height: 240px;
+    border-radius: 30px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 31px;
+  }
+  
+  .copy img{
+    width: 200px;
+    height: 220px;
+    border-radius: 30px;
+    padding-left: 10px;
+    border-radius: 35px;
+    margin-top: 10px;
+    float: left;
+  }
+  
+  .copy h1{
+ text-transform: uppercase;
+ padding-top: 20px;
+ margin-left: 210px; 
+ font-size: 25px;
+  }
+  
+ .copy p{
+    color: grey;
+    font-size: 13px;
+    padding: 0px;
+    margin-left: 210px;
+  }
+  
+  .copy .rs{
+    color: red;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  
+  .copy .plus{
+    border-radius: 50%;
+    width: 45px;
+    height:45px;
+    background-color: red;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+
+.boxes{
+  display: inline-block;
+}
+
+.footer h1{
+  margin-left: 40px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+ .page{
+  margin-left: 40px;
+}
+
+.footer a{
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.black{
+  background-color: black;
+  width: 100%;
+  height: 30vh;
+}
+
+.black .eee{
+  width: 250px;
+  height: 80px;
+  margin-top: 100px;
+  margin-left: 430px;
+}
+
+ .black .fff{
+   width: 250px;
+   height: 80px;
+   margin-top: 100px;
+   margin-right: 180px;
+ }
+ 
+.black .card{
+  margin-top: 20px;
+  margin-left: 550px;
+}
+
+.apply{
+  margin-left: 600px;
+  font-size: 70px;
+  color: white;
+}
+  
+.last{
+  text-align: center;
+  color: grey;
+  margin-right: 40px;
+  font-size: 30px;
+}
+
+.in{
+  color: white;
+ text-transform: lowercase;
+ text-decoration: underline;
+} 
+
+.white{
+  text-decoration: underline;
+  color: white;
+  font-size: 20px;
+}
